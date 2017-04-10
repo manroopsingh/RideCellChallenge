@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RideCellChallenge</string>
+    <string name="GoogleApiKey">AIzaSyBFOLLi_eSEa9v_8Q5aZiIQMHiKra5flPM</string>
+    <string name="title_activity_view_map">Map</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>

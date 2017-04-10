@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.singh.ridecellchallenge.activities.getroute.GetRouteActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Origin (Lat,Lon)"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:layout_marginTop="2dp"
+            android:id="@+id/etOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:hint="33.8715,-84.4561"
+            android:text="33.871559,-84.456136" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Destination (Lat,Lon)"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:layout_marginTop="2dp"
+
+            android:id="@+id/etDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:hint="33.8640,-84.4451"
+            android:text="33.864009,-84.445162" />
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Speed (MPH)"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:layout_marginTop="2dp"
+
+            android:id="@+id/etSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:hint="e.g: 60"
+            android:text="60" />
+
+
+        <Button
+            android:id="@+id/btnGetDirections"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Directions" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
