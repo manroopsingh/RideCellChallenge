@@ -19,7 +19,7 @@ Dagger  (Dependency Injection)
 
 ##### Steps
 1. Create GetRouteActivity to obtain Origin and Destination coordinates.
-2. Create a retrofit helper class to obtain observable instance, which will get data from Google Api for directions.*
+2. Create a retrofit helper class to obtain observable instance, which will get data from Google Directions API.*
 3. Import maps.utils library by google to draw on the map.
 4. Create a thread class which will communicate with the ViewMapActivity to show each coordinate in the LatLng list.
 5. Initialize PolylineOptions, CircleOptions, Circle classes with desired settings(color, radius etc)
