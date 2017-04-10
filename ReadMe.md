@@ -1,12 +1,5 @@
 # Ride Cell Challenge
 
-#### Problem  
-Create an Android application that does the following.  
-A user can enter three inputs: 1. from location 2. to location and 3. speed.  
-Based on those three inputs, have a vehicle move on a map from the "from location" to the "to location".
-Have the vehicle move according to the speed entered.
-The vehicle should move on the road on the map.  The vehicle should not move through buildings, no matter the start and end location
-
 #### Approach  
 ##### Architecture: 
 MVP  
